@@ -6,12 +6,20 @@
     grid-auto-rows: minmax(100px, auto);
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(0, 0, 0);
     margin: 16px;
 }
 
+.div > nav{
+    background: #000000;
+    height: 60px;
+    width: 960px;
+    margin-left: -10px;
+    line-height:50px;
+    position: relative;
+}
+
 .dashCont > div{
-    background-color: rgb(134, 136, 136);
+    background-color: rgb(146, 146, 146);
     height: 200px;
     display: flex;
     justify-content: center;
@@ -20,7 +28,7 @@
     font-size: 2em;
 }
 
-.dashCont > div:hover{
+.dashCont > div > div:hover{
     background-color: aqua;
     color: gray;
 }

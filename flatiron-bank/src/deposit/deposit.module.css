@@ -1,4 +1,4 @@
-.cusCont{
+.depCont{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.cusCont > form{
+.depCont > form{
     display: flex;
     flex-direction: column;
 }

@@ -1,20 +1,24 @@
+import styles from './new-customer.module.css'
+
 export function NewCustomer() {
+    const onNewCustomer = e => {
+        e.preventDefault()
+
+        console.log(e.target)
+        const acId = e.target.acId.value
+        const acNm = e.target.acId.value
+        const balance = e.target.acId.value
+        console.log(`Id ${acId} Name ${acNm} Bal ${balance}`)
+
+    }
     return (
-        <div>
+        <div className={styles.cusCont}>
             <h1>Create New Account</h1>
-            <form>
-                <div>
-                    <input type='number' placeholder='Account Id' />
-                </div>
-                <div>
-                    <input type='text' placeholder='Account Name' />
-                </div>
-                <div>
-                    <input type='number' placeholder='Balance' />
-                </div>
-                <div>
+            <form onSubmit={onNewCustomer}>
+                    <input type='number' placeholder='Account Id' name='acId'/>
+                    <input type='text' placeholder='Account Name' name='acNm'/>
+                    <input type='number' placeholder='Balance' name='balance'/>
                     <input type='submit' value='Create' />
-                </div>
             </form>
         </div>
     )
