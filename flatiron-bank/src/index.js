@@ -14,6 +14,7 @@ import { Deposit } from './deposit/deposit'
 import { Transfer } from './transfer/transfer'
 import { Withdraw } from './withdraw/withdraw'
 import { Balance } from './balance/balance'
+import { Transaction } from './Transaction Table/transaction'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,6 +22,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<Dashboard />}/>
+      <Route path='/table' element={<Transaction />}/>
       <Route path='/new' element={<NewCustomer />}/>
       <Route path='/deposit' element={<Deposit />}/>
       <Route path='/withdraw' element={<Withdraw />}/>

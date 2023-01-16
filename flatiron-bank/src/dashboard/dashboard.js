@@ -1,42 +1,97 @@
-import styles from './dashboard.module.css'
+import styles from './dashboard.module.css';
 import { useNavigate } from 'react-router-dom';
 
 export function Dashboard() {
     const navigate = useNavigate();
     return (
         <div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Flatiron Bank</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Transaction Tables</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    About us
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                                    <li><a class="dropdown-item" href="#">Customer Care</a></li>
-                                    <li><a class="dropdown-item" href="#">Guildlines and Transparency</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2019-12-01</td>
+                    <td>Income</td>
+                    <td>Paycheck from Bob's Burgers</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2019-12-01</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2019-12-02</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2019-12-04</td>
+                    <td>Fashion</td>
+                    <td>Sunglasses, Urban Outfitters</td>
+                    <td>-24.99</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2019-12-01</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2019-12-01</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2019-12-01</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2019-12-01</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2019-12-01</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2019-12-01</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2019-12-01</td>
+                    <td>Food</td>
+                    <td>South by Southwest Quinoa Bowl at Fresh & Co</td>
+                    <td>-10.55</td>
+                </tr>
+            </table>
+
             <div className={styles.dashCont}>
                 <div onClick={() => navigate('/new')}>
                     New Customer

@@ -1,34 +1,33 @@
-.dashCont{
+.dashCont {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 300px);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(1, 300px);
+    gap: 5px;
+    grid-auto-rows: minmax(5px, auto);
     justify-content: center;
-    align-items: center;
-    margin: 16px;
+
+}
+div-table {
+    font-size: large;
+    display: table;
+    width: auto;
+    background-color: #eee;
+    border: 1px solid #666666;
+    border-spacing: 5px;
 }
 
-.dashCont > nav{
-    background-color: #000000;
-    height: 60px;
-    width: 960px;
-    margin-left: -10px;
-    line-height:50px;
-    position: relative;
-}
-
-.dashCont > div{
+.dashCont>div {
     background-color: rgb(146, 146, 146);
-    height: 200px;
-    display: flex;
+    height: 20px;
+    display: grid;
     justify-content: center;
-    align-items: center;
     border: 1px solid white;
-    font-size: 2em;
+    font-size: 1em;
+    width: 300px;
+    margin-top: 8px;
 }
 
-.dashCont > div:hover{
+.dashCont>div:hover {
     background-color: aqua;
     color: gray;
 }
