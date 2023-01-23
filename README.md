@@ -1,4 +1,11 @@
-<<<<<<< HEAD
+# Project-Title
+    Bank Of Flatiron
+
+# Description
+
+-Fill out and submit the form to add a new transaction. This should add the new transaction to the table *the new transaction does not have to be persisted to the backend*
+-Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be shown in the transactions table.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

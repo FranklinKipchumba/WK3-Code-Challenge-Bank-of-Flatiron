@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
 }
 
 input {
@@ -13,12 +13,14 @@ input {
 body {
   margin: 0;
   padding: 0;
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
   font-family: sans-serif;
 }
 
 .App {
   text-align: center;
+  background-color: #222;
+  color: white;
 }
 
 
@@ -29,18 +31,61 @@ body {
 }
 
 .ui-segment-violet-inverted{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     padding: 20px;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .ui-raised-segment{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(248, 0, 0);
     padding: 20px;
 }
 
 div.AccountContainer{
   display: flex;
   justify-content: center;
-  background-color: azure;
+  background-color: rgb(0, 0, 0);
+}
+
+input{
+  width: 25%;
+  margin-right: 0.25em!important;
+  margin-left: 0.25em!important;
+  margin-top: 1em;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+form{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+
+button{
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+  margin-top: 1em;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.circular-search-link-icon{
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+
+.ui-large-fluid-icon-input > input{
+  width: 25%;
+  margin-right: 0.25em!important;
+  margin-left: 0.25em!important;
+  margin-top: 1em;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
