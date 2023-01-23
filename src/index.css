@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   text-align: center;
-  background-color: #222;
+  background-color: aqua;
 }
 
 input {
@@ -26,4 +26,21 @@ body {
   background-color: #222;
   padding: 20px;
   color: white;
+}
+
+.ui-segment-violet-inverted{
+    background-color: aqua;
+    padding: 20px;
+    color: white;
+}
+
+.ui-raised-segment{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+div.AccountContainer{
+  display: flex;
+  justify-content: center;
+  background-color: azure;
 }
