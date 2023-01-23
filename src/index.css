@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   text-align: center;
+  background-color: #222;
 }
 
 input {
@@ -12,6 +13,7 @@ input {
 body {
   margin: 0;
   padding: 0;
+  background-color: aqua;
   font-family: sans-serif;
 }
 
